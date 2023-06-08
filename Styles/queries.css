@@ -1,0 +1,49 @@
+@media (max-width: 350rem) {
+  html {
+    font-size: 72%;
+  }
+}
+
+@media (max-width: 96rem) {
+  body {
+    border: 10px solid purple;
+  }
+  html {
+    font-size: 60%;
+  }
+}
+
+@media (max-width: 76rem) {
+  body {
+    border: 10px solid red;
+  }
+  html {
+    font-size: 50%;
+  }
+}
+
+@media (max-width: 66rem) {
+  body {
+    border: 10px solid green;
+  }
+
+  .about-content {
+    flex-direction: column;
+    height: 90rem;
+    margin-bottom: 0;
+  }
+
+  .project-header {
+    flex-direction: column;
+    height: 24rem;
+    margin-bottom: 12rem;
+  }
+
+  .project-cards {
+    flex-direction: column;
+  }
+
+  .project-cards a {
+    height: 60rem;
+  }
+}

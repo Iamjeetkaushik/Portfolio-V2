@@ -1,0 +1,117 @@
+.experience {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 120rem;
+  height: 120rem;
+}
+
+.exp-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 12rem;
+}
+
+.exp-header-heading {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 44.4791px;
+  line-height: 52px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.exp-content {
+  display: flex;
+  align-items: top;
+  justify-content: space-between;
+  width: 120rem;
+}
+
+.jobs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: space-between; */
+  height: 100rem;
+}
+
+.exp-cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 54rem;
+  height: 20rem;
+  border: 0.1rem solid rgba(123, 74, 226, 0.5);
+  border-radius: 1.4rem;
+  padding: 2rem;
+  margin-bottom: 6rem;
+}
+
+.exp-cards:hover {
+  background: rgba(123, 74, 226, 0.1);
+}
+
+.exp-card-text {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  height: 14rem;
+}
+
+.exp-card-head {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18.533px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+  color: #ffffff;
+}
+
+.exp-card-details {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 1.7rem;
+  align-items: first baseline;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.calendar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 48rem;
+}
+
+.duration {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 2rem;
+  color: #7b4ae2;
+}
+
+.start-date {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2rem;
+  color: #7b4ae2;
+}
+
+.education {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: space-between; */
+  height: 70rem;
+}

@@ -33,6 +33,11 @@
     margin-bottom: 0;
   }
 
+  .projects {
+    height: 180rem;
+    margin-bottom: 56rem;
+  }
+
   .project-header {
     flex-direction: column;
     height: 24rem;
@@ -43,7 +48,97 @@
     flex-direction: column;
   }
 
+  .project-header-left {
+    align-items: center;
+  }
+
   .project-cards a {
-    height: 60rem;
+    height: 64rem;
+  }
+
+  .experience {
+    height: 220rem;
+    justify-content: flex-start;
+  }
+
+  .exp-content {
+    flex-direction: column;
+    height: 200rem;
+    justify-content: space-between;
+    margin-top: 20rem;
+  }
+
+  .src-gallery {
+    visibility: hidden;
+  }
+
+  .src {
+    height: 30rem;
+  }
+
+  .src-head-text {
+    align-items: center;
+    height: 30rem;
+    width: 80rem;
+  }
+
+  .src-head-text span {
+    text-align: center;
+    margin-bottom: 8rem;
+  }
+
+  .recommendations {
+    align-items: center;
+    height: 180rem;
+  }
+
+  .rec-head {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .rec-head-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .rec-head-right {
+    visibility: hidden;
+    width: 0;
+  }
+
+  .rec-cards {
+    flex-direction: column;
+    height: 160rem;
+  }
+
+  .rec-card {
+    margin-bottom: 10rem;
+  }
+
+  .contact img {
+    width: 40rem;
+  }
+
+  .contact a {
+    font-size: 4rem;
+  }
+
+  #work {
+    font-size: 4rem;
+  }
+  #email:hover {
+    font-size: 5rem;
+  }
+}
+
+@media (max-width: 36rem) {
+  body {
+    border: 2px solid yellow;
+  }
+  html {
+    font-size: 45%;
   }
 }

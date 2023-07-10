@@ -27,6 +27,39 @@
     /* border: 10px solid green; */
   }
 
+  .projects {
+    height: 210rem;
+  }
+  .exp-content {
+    flex-direction: column;
+    height: 200rem;
+  }
+
+  .experience {
+    height: 200rem;
+  }
+
+  .exp-header {
+    margin-bottom: 6rem;
+  }
+
+  .src-gallery {
+    display: none;
+  }
+
+  .rec-cards {
+    flex-direction: column;
+  }
+
+  .rec-card,
+  .rec-head {
+    margin-bottom: 10rem;
+  }
+
+  .recommendations {
+    height: 184rem;
+  }
+
   .about-content {
     flex-direction: column;
     height: 90rem;
@@ -45,5 +78,17 @@
 
   .project-cards a {
     height: 60rem;
+  }
+
+  .contact img {
+    width: 40rem;
+  }
+
+  .contact a {
+    font-size: 2rem;
+  }
+
+  .contact span {
+    font-size: 1.5rem;
   }
 }
